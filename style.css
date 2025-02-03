@@ -15,6 +15,7 @@
     scroll-behavior: smooth;
 }
 p{
+    /* font-size: 14px; */
     line-height: 1.5;
     letter-spacing: .7px;
     font-weight: 300;
@@ -71,14 +72,14 @@ p{
     z-index: 2;
 }
 #header  .logo{
-    width: 170px;
+    width: 160px;
 }
 #header  ul li{
     display: inline-block;
     margin-left: 35px;
 }
 header  ul li a{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--second-color);
     transition: all .3s ease;
@@ -106,10 +107,10 @@ header  ul li a:hover{
     margin-right: 5px;
 }
 #header .home .text h1{
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--second-color);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #header .home .text p{
@@ -146,14 +147,15 @@ header  ul li a:hover{
     margin: 0 auto 4rem;
 }
 .title h1{
-    font-size: 29px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: .3px;
     color: var(--second-color);
     margin-bottom: 20px;
 }
 .title p{
-    letter-spacing: .3px;
+    font-size: 14.5px;
+    letter-spacing: .1px;
     color: var(--dark-color);
     margin-top: 15px;
     text-align: center;
@@ -182,7 +184,7 @@ header  ul li a:hover{
     margin-bottom: 15px;
 }
 #about .about-content .right-content p{
-    font-size: 15px;
+    font-size: 14.5px;
     color: var(--dark-color);
     margin-bottom: 20px;
 }
@@ -376,7 +378,7 @@ header  ul li a:hover{
     margin-right: 1rem;
 }
 .offer .content .col div h3{
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--second-color);
 }
@@ -437,7 +439,7 @@ header  ul li a:hover{
     width: 100%;
     background-color: var(--third-color);
     color: var(--main-color);
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: .5px;
     border-radius: 0;
@@ -449,7 +451,7 @@ header  ul li a:hover{
 
 
 .comp{
-    padding: 3rem 0;
+    padding: 3rem 0
     background-image: url(./imgfolder/info-bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -475,7 +477,7 @@ header  ul li a:hover{
     flex-wrap: wrap;
 }
 .comp .content img{
-    max-width: 200px;
+    max-width: 180px;
 }
 
 #doctors .content{
@@ -497,12 +499,12 @@ header  ul li a:hover{
     margin: 20px 0 0;
 }
 #doctors .content .col .text p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--second-color);
 }
 #doctors .content .col .text span{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 300;
     color: var(--third-color);
     display: block;
@@ -543,13 +545,13 @@ header  ul li a:hover{
 #blogs .content .col .text h3{
     color: var(--second-color);
     margin: 1rem 0;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
     letter-spacing: .5px;
 }
 #blogs .content .col .text p{
     color: #5a5a5a;
-    font-size: 15px;
+    font-size: 14.3px;
 }
 #blogs .content .col .text .btn{
     color: var(--second-color);
@@ -615,7 +617,7 @@ header  ul li a:hover{
 #contact .content form .btn-contact{
     border: 2 px solid var(--dark-color);
     background-color: var(--third-color);
-    font-size: 19px;
+    font-size: 15px;
     color: var(--main-color);
     letter-spacing: .5px;
 }
@@ -684,7 +686,7 @@ header  ul li a:hover{
     gap: 1rem;
 }
 #footer .container .col h3{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: .3px;
     margin-bottom: .5rem;
@@ -695,7 +697,7 @@ header  ul li a:hover{
     margin-bottom: 1.5rem;
 }
 #footer .container .col p{
-    font-size: 15px; 
+    font-size: 14px;
     margin-bottom: 1.5rem;
 }
 #footer .container .col-1 .footer-icon{
@@ -762,14 +764,14 @@ footer{
     background-color: #002b7cf6;
 }
 footer p{
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
     color: var(--main-color);
     letter-spacing: 1px;
 }
 footer p a{
     color:  #001438f6;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     transition: all .4s ease;
 }
@@ -830,8 +832,8 @@ footer p a:hover{
     }
     .btn{
         display: inline-block;
-        padding: 10px 20px;
-        font-size: 15px;
+        padding: 10px 15px;
+        font-size: 14px;
         margin: 1rem 0;
         margin-right: 10px;
     }
@@ -840,10 +842,10 @@ footer p a:hover{
         background-position: right;
     }
     #header .navigation{
-        padding:  10px 2rem;
+        padding: 7px 2rem;
     }
     #header  .logo{
-        width: 150px;
+        width: 140px;
     }
     #header  ul{
         position: absolute;
@@ -864,7 +866,7 @@ footer p a:hover{
         color: var(--main-color);
     } 
     .menu-bar{
-        font-size: 23px;
+        font-size: 21px;
         color: var(--second-color);
         transition: all .3s ease;
     }
@@ -947,8 +949,14 @@ footer p a:hover{
     }
 }
 @media only screen and (max-width:460px){
+    #header{
+        background-position: bottom;
+    }
     .container{
         padding: 10px 1rem;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
     #about .about-content .right-content p,
     .experience .container .content .text p,
@@ -982,6 +990,9 @@ footer p a:hover{
         margin-right: .5rem;
         color: var(--second-color);
         transition: all .3s ease;
+    }
+    #header .home .text small {
+        justify-content: center;
     }
     #header .home .text h1{
         font-size: 17px;
